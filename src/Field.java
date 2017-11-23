@@ -14,6 +14,7 @@ public class Field {
     }
 
     public void grow(){
+            System.out.println("ИГРОВОЕ ПОЛЕ      ПОДСКАЗКА");
         for(int i = 0; i < 4; i++){
             System.out.println("|---|---|---|   |---|---|---|");
             if(i >= 3) break;

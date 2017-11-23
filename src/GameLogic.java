@@ -12,7 +12,6 @@ public class GameLogic {
 
     public void start(){
         System.out.println("Введите координаты хода через пробел и нажмите ENTER");
-        System.out.println("ИГРОВОЕ ПОЛЕ   ПОДСКАЗКА");
         int spotWinner;
         do{
             if(whoIsTern){
